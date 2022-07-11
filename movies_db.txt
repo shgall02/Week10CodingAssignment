@@ -1,0 +1,11 @@
+create database if not exists movies_db;
+
+use movies_db;
+
+create table movies(
+	idMovies int(10) not null auto_increment,
+	movie varchar(50) not null,
+	primary key (idmovies) 
+
+);
+
